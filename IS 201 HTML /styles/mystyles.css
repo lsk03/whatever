@@ -1,0 +1,61 @@
+img{
+    width:  200px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    /* Make room for footer */
+    padding-bottom: 100px;
+}
+
+.flavor {
+    color: ghostwhite;
+    font-family: monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+.icecream {
+    background-color: darkgray;
+    width: 300px;
+    text-align: center;
+    margin-left: 40%;
+}
+
+footer{
+    border: 3px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: #111;
+  }
